@@ -24,8 +24,8 @@ app:
     keycloak:
       server-url: http://localhost:8080/auth
       realm: giapp
-      clientId: 3IPSWPeecTksgDq15qoGZvZlAneupNF9
-      client-secret: giapp-security
+      clientId: giapp-security
+      client-secret: 3IPSWPeecTksgDq15qoGZvZlAneupNF9
   feign:
     client:
       core-banking: core-banking-service
